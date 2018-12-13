@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<div class="jumbotron">
+  <h1>{{ site.greeting }}</h1>
+  <p>
+    {{ site.description }}
+  </p>
+  <p><a class="btn btn-primary btn-lg" href="{{ site.baseurl }}/datasets" role="button">Start browsing</a></p>
+</div>
+
+<h3>Browse by Category</h3>
+<hr>
+<div class="homepage-categories">
+{% for category in site.data.categories %}
+  {% if category.featured == true %}
+    {% capture logo_alt %}{{ category.name }}{% if category.logo_credit and category.logo_credit != empty %} logo {{ category.logo_credit }}{% endif %}{% endcapture %}
+    <a href="{{ site.baseurl }}/datasets/?category={{ category.name | slugify }}" class="thumbnail" title="{{ logo_alt }}">
+      {% if category.logo and category.logo != empty %}
+        <img src="{{ site.baseurl }}{{ category.logo }}" alt="{{ logo_alt }}">
+      {% endif %}
+      {{ category.name }}
+    </a>
+  {% endif %}
+{% endfor %}
+</div>
+
+<h3>Transparency</h3>
+<hr>
+<div>
+  <p>
+    Open data is only one component of transparency at the City of Beverly Hills. This site focuses on data that can be downloaded for your
+    use. For more forms of transparency, please visit <a href="http://www.beverlyhills.org/citygovernment/transparency/"
+    target="blank">http://www.beverlyhills.org/citygovernment/transparency/</a>.
+  </p>
+  </br>
+  <p>
+    If you are looking for interactive map visualizations, please visit <a href="http://www.beverlyhills.org/citygovernment/departmentsanddivisions/informationtechnology/interactivemapsgis/"
+    target="blank">http://www.beverlyhills.org/gis/</a>
+  </p>
+</div>

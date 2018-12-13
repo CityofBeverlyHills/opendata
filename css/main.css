@@ -1,0 +1,178 @@
+.jumbotron {
+  background-image: url("/opendata/img/VennMasthead.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.jumbotron p {
+  font-weight:500;
+}
+
+.btn:hover {
+    background-color: #7A6439;
+    border-color: #7A6439;
+    color: white;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+  font-weight: 600;
+}
+
+body {
+    margin-bottom: 250px;
+}
+
+hr {
+  background-color: #000;
+  height: 1px;
+}
+
+.navbar {
+    font-family: Lora, Times, serif;
+    text-transform: uppercase;
+    /* font-weight: 600; */
+    background-image: radial-gradient(circle, #cdc09c, #917643 50%);
+}
+
+.brand {
+    position: absolute;
+    left: 50%;
+    display: block;
+}
+
+.footer {
+  background:url("/opendata/img/footer.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width:100%;
+  max-height: 250px;
+  position: absolute;
+  bottom: 0;
+  /* overflow:hidden; */
+  color: white;
+  padding: 20px 20px 0px 20px;
+}
+
+.copyright {
+  background-color: rgba(71, 58, 34, 0.5);
+  padding: 5px;
+}
+
+.organization-thumbnail img {
+  width: 64px;
+}
+
+dataset {
+  display: block;
+  border-bottom: 1px #d6d6d6 solid;
+  padding-bottom: 20px;
+}
+
+.list-group-item-truncate {
+  display: inline-block;
+  line-height: 1;
+  width: 75%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.resource-description {
+  font-size: 90%;
+}
+
+.select2 {
+  margin-bottom: 10px;
+}
+
+.datasets-count {
+  display: inline-block;
+}
+
+.add-dataset-btn {
+  margin-top: 15px;
+}
+
+/* Hidden from guests */
+.user-issue,
+.admin-only {
+  display: none;
+}
+
+.resource-details,
+.show-resource-details {
+  display: none;
+}
+
+.show-resource-details {
+  font-size: 80%;
+}
+
+.user-issue {
+  color: red;
+}
+
+[data-component~=view-switcher] [data-hook~=view] {
+  display: none;
+}
+
+.homepage-categories,
+.theme-gallery {
+  text-align: center;
+}
+
+/* allows last line of categories to be justify aligned */
+.homepage-categories:after,
+.theme-gallery:after {
+  display: inline-block;
+  width: 100%;
+  content: '';
+}
+
+.homepage-categories .thumbnail {
+  display: inline-block;
+  width: 150px;
+  height: 130px;
+  text-align: center;
+  border: none;
+  padding: 10px;
+}
+
+.homepage-categories .thumbnail img {
+  height: 90px;
+  padding: 10px;
+}
+
+.homepage-categories a {
+  color: #ffffff;
+  background-color: #ad965b;
+}
+
+.homepage-categories a:hover {
+  background-color: #7A6439;
+}
+
+.theme-gallery .panel {
+  display: inline-block;
+  max-width: 250px;
+  text-align: center;
+}
+
+.theme-gallery .panel img {
+  width: 100%;
+}
+
+.theme-gallery .panel-primary {
+  border-width: 5px;
+}
+
+.table-content-centered {
+	text-align: center;
+}
+
+.el-margin {
+    margin-bottom: 60px;
+  }

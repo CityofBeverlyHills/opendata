@@ -1,0 +1,60 @@
+- name: Arts & Culture
+  logo: /img/categories/si-glyph-reel-film.svg
+  logo_credit: Glyph by SmartIcons
+  featured: true
+- name: Budget & Finance
+  logo: /img/categories/si-glyph-money-$.svg
+  logo_credit: Glyph by SmartIcons
+  featured: true
+- name: Economy
+  logo: /img/categories/si-glyph-chart-column-increase.svg
+  logo_credit: Glyph by SmartIcons
+  featured: true
+- name: Education
+  logo: /img/categories/education.svg
+  logo_credit: Glyph by SmartIcons
+  featured: false
+- name: Elections & Politics
+  logo: /img/categories/si-glyph-bank.svg
+  logo_credit: Glyph by SmartIcons
+  featured: true
+- name: Environment
+  logo: /img/categories/si-glyph-leaf.svg
+  logo_credit: Glyph by SmartIcons
+  featured: true
+- name: GIS
+  logo: /img/categories/si-glyph-global.svg
+  logo_credit: Glyph by SmartIcons
+  featured: true
+- name: Health & Human Services
+  logo: /img/categories/si-glyph-heart-signal.svg
+  logo_credit: Glyph by SmartIcons
+  featured: false
+- name: Parks & Recreation
+  logo: /img/categories/si-glyph-tennis-racket-ball.svg
+  logo_credit: Glyph by SmartIcons
+  featured: true
+- name: Development
+  logo: /img/categories/si-glyph-layout-4.svg
+  logo_credit: Glyph by SmartIcons
+  featured: true
+- name: Public Safety
+  logo: /img/categories/si-glyph-light-alarm.svg
+  logo_credit: Glyph by SmartIcons
+  featured: true
+- name: Public Works
+  logo: /img/categories/si-glyph-faucet.svg
+  logo_credit: Glyph by SmartIcons
+  featured: true
+- name: Transportation
+  logo: /img/categories/si-glyph-traffic-light.svg
+  logo_credit: Glyph by SmartIcons
+  featured: true
+- name: Uncategorized
+  logo: /img/categories/si-glyph-folder-open.svg
+  logo_credit: Glyph by SmartIcons
+  featured: false
+- name: Technology
+  logo: /img/categories/si-glyph-camera-security.svg
+  logo_credit: Glyph by SmartIcons
+  featured: true
