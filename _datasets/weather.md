@@ -14,6 +14,6 @@ disclaimer: This product has been provided by the City of Beverly Hills on as as
 category:
   - Environment
 maintainer: Information Technology Department
-updateddate: January 2018
+updateddate: January 2019
 ---
 Weather data from Beverly Hills City Hall weather station.
