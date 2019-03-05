@@ -15,7 +15,7 @@ category:
   - Public Safety
   - GIS
 maintainer: Police Department
-updateddate: February 6, 2019
+updateddate: February 26, 2019
 ---
 Beverly Hills Police Department crime data since January 1, 2015. To maintain privacy, the location is generalized and not necessarily the exact spot where the incident occurred. Current data is also available as a csv download from the Crime Mapper Application.
 
