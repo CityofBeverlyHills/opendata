@@ -3,8 +3,8 @@ schema: default
 title: Collisions
 organization: City of Beverly Hills
 resources:
-  - name: CHP Collision records January 1, 2015 to August 31, 2018
-    url: 'http://www.beverlyhills.org/cbhfiles/storage/opendata/CollisionRecords20150101_20180831.csv'
+  - name: CHP Collision records
+    url: 'http://www.beverlyhills.org/cbhfiles/storage/opendata/CollisionRecords.csv'
     format: csv  
   - name: Collision metadata
     url: 'http://www.beverlyhills.org/cbhfiles/storage/opendata/CollisionsMetadata.html'
@@ -18,6 +18,6 @@ category:
   - Public Safety
   - Transportation
 maintainer: Police Department
-updateddate: September 2018
+updateddate: July 1, 2019
 ---
 Collision data as recorded in the California Highway Patrol Statewide Integrated Traffic Records System (<a href="http://iswitrs.chp.ca.gov/Reports/jsp/CollisionReports.jsp" target="_blank">SWITRS</a>). Please refer to the metadata for field descriptions. All collisions from recent past months may not be included yet. For an interactive map view of collisions, see the collision mapping application. <small style="font-size:0;">accident wreck</small>
