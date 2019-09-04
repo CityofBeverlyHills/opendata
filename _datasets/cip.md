@@ -24,4 +24,4 @@ category:
 maintainer: Budget & Finance
 updateddate: September 2019
 ---
-Capital Improvement Projects for the City of Beverly Hills. For the full budget, go to the <a href="http://www.beverlyhills.org/citygovernment/departmentsanddivisions/finance/budgetprocess/" target="_blank">Budget Process</a>. Please use the map application for an interactive view. <small style="font-size:0;">cip</small>
+Capital Improvement Projects for the City of Beverly Hills. For the full budget, go to the <a href="http://www.beverlyhills.org/departments/finance/financialdocuments/" target="_blank">Financial Documents</a> page. Please use the map application for an interactive view. <small style="font-size:0;">cip</small>

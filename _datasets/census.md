@@ -17,4 +17,4 @@ category:
 maintainer: Information Technology Department
 updateddate: September 2018
 ---
-Census data for Beverly Hills. Original data from the US Census - <a href="https://www.census.gov/geo/maps-data/data/tiger.html" target="_blank">Download Census data</a>. The City of Beverly Hills clipped the census data to only show Beverly Hills tracts and selected fields. Please use the csv table below or refer to Census metadata for field descriptions for the shapefile.
+Census data for Beverly Hills. Original data from the US Census - <a href="https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-geodatabase-file.html" target="_blank">Download Census data</a>. The City of Beverly Hills clipped the census data to only show Beverly Hills tracts and selected fields. Please use the csv table below or refer to Census metadata for field descriptions for the shapefile.
