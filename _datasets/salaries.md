@@ -3,6 +3,9 @@ schema: default
 title: Salaries
 organization: City of Beverly Hills
 resources:
+  - name: 2018 Compensation report
+    url: 'http://www.beverlyhills.org/cbhfiles/storage/opendata/2018CityofBeverlyHillsCompensationReport.csv'
+    format: csv
   - name: 2017 Compensation report
     url: 'http://www.beverlyhills.org/cbhfiles/storage/opendata/2017CityofBeverlyHillsCompensationReport.csv'
     format: csv
@@ -14,6 +17,6 @@ disclaimer: This product has been provided by the City of Beverly Hills on as as
 category:
   - Budget & Finance
 maintainer: Finance Department
-updateddate: May 31, 2018
+updateddate: September 2019
 ---
 Employee compensation report as published on. Contains compensation for employees listed by department and title. For summarized salary and benefit data, please use OpenGov link.

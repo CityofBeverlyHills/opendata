@@ -15,6 +15,6 @@ category:
   - Public Works
   - Environment
 maintainer: Public Works Department
-updateddate: January 2019
+updateddate: September 2019
 ---
 Summarized monthly water production and use data as reported to the California State Water Resources Control Board. Additional information and statewide data can be found at: <a href="https://www.waterboards.ca.gov/water_issues/programs/conservation_portal/conservation_reporting.html" target="_blank">Water Conservation and Production Reports</a>.
